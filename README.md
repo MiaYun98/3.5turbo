@@ -1,7 +1,7 @@
 # 3.5turbo
 
 ## Description 
-
+This application is the program that working with the Chat-GPT Turbo 3.5. 
 
 ## UserStory 
 
