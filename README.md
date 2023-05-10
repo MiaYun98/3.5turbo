@@ -6,13 +6,14 @@ This application is the program that working with the Chat-GPT Turbo 3.5.
 ## UserStory 
 
 ```md
-When you put the input in the page, Chat GPT generates the answer that is related and print out the result in the page. 
+As a User who wants to utilize the ChatGPT as an API System 
+
 ```
 
 ## Acceptance Criteria
 
 ```md
-
+When you put the input in the page, Chat GPT generates the answer that is related and print out the result in the page. 
 ```
 
 ## Installation 
