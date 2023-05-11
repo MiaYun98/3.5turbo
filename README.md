@@ -7,6 +7,8 @@ This application is the program that working with the Chat-GPT Turbo 3.5.
 
 ```md
 As a User who wants to utilize the ChatGPT as an API System 
+I want to utilize ChatGPT as a various way
+SO THAT I can iunput this api in several different projects 
 
 ```
 
