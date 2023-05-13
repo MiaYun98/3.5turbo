@@ -29,7 +29,7 @@ Open AI
 ## Usage 
 
 ```md
-
+Personal usage for the Hunt application API building practice utilizing the Chat GPT
 ```
 
 ## APP Screen Shot 
