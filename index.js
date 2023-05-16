@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from "openai";
-import dotenv from dotenv;
-
-dotenv.config()
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors"
 
 const configuration = new Configuration({
 
@@ -9,11 +9,28 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const completion = await openai.createChatCompletion({
-    model: "gpt-3.5-turbo",
-    messages: [
-        {role: "user", content: "Hello world"}
-    ]
-})
+const app = express();
+const port = 3000;
 
-console.log(completion.data.choices[0].message)
+app.use(bodyParser.json());
+app.use(cors());
+
+app.post("/", async (req, res) => {
+    const { message } = req.body;
+
+    const completion = await openai.createChatCompletion({
+        model: "gpt-3.5-turbo",
+        messages: [
+            { role: "user", content: `${message}` }
+        ]
+    })
+
+    res.json({
+        completion: completion.data.choices[0].message
+    })
+    // console.log(completion.data.choices[0].message)
+});
+
+app.listen(port, () => {
+    console.log(`Exaple app listing at http://localhost:${port}`);
+});
