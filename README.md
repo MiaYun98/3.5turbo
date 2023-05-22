@@ -34,7 +34,7 @@ Personal usage for the Hunt application API building practice utilizing the Chat
 
 ## APP Screen Shot 
 
-
+![Alt text](App%20ScreenShot.png)
 
 ## Credits 
 
