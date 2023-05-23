@@ -36,18 +36,9 @@ Personal usage for the Hunt application API building practice utilizing the Chat
 
 ![Alt text](App%20ScreenShot.png)
 
-## Credits 
-
-
-
-
-## Deployed Application 
-
-
-
 ## License 
 
 
 
 ## Contact 
-https://github.com/MiaYun98
+Sangmi Yun: https://github.com/MiaYun98
