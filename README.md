@@ -32,6 +32,10 @@ Open AI
 
 ```md
 Personal usage for the Hunt application API building practice utilizing the Chat GPT
+
+npm run start for the server 
+
+and open the live server for the HTML file
 ```
 
 ## APP Screen Shot 
