@@ -9,7 +9,7 @@ It only used the JS and the HTML to create simple chatbot function.
 ```md
 As a User who wants to utilize the ChatGPT as an API System 
 I want to utilize ChatGPT as a various way
-SO THAT I can iunput this api in several different projects 
+SO THAT I can insert this api in several different projects 
 
 ```
 
