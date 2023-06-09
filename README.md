@@ -2,7 +2,7 @@
 
 ## Description 
 This application is the program that working with the Chat-GPT Turbo 3.5. 
-It only used the JS and the HTML to create simple chatbot function. 
+It only used the JS and the HTML to create simple chatbot function. Should turn this into the API
 
 ## UserStory 
 
